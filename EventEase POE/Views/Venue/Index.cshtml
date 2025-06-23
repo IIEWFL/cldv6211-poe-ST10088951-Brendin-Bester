@@ -1,0 +1,54 @@
+﻿@model IEnumerable<EventEase.Models.Venue>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<!-- Success Message -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" style="padding: 10px; border-radius: 5px; margin-bottom: 20px;">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<p>
+    <div style="margin-bottom: 20px;">
+        <a asp-action="Create"
+           style="background-color: #17a2b8; color: white; padding: 10px 16px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">
+            + Create New
+        </a>
+    </div>
+</p>
+
+<table class="table">
+    <tbody>
+        <div class="card-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+            @foreach (var item in Model)
+            {
+                <div class="card" style="border: 1px solid #ccc; border-radius: 10px; width: 300px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <img src="@item.ImageUrl" alt="@item.VenueName" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;" />
+                    <h3>@item.VenueName</h3>
+                    <p><strong>Location:</strong> @item.Location</p>
+                    <p><strong>Capacity:</strong> @item.Capacity</p>
+                    <div style="margin-top: 10px;">
+                        <a asp-action="Edit" asp-route-id="@item.VenueId"
+                           style="background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+                            Edit
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.VenueId"
+                           style="background-color: #28a745; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+                            Details
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.VenueId"
+                           style="background-color: #dc3545; color: white; padding: 8px 12px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+                            Delete
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </tbody>
+</table>

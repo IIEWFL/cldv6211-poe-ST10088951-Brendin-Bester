@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|c:\\users\\brend\\onedrive\\desktop\\eventease\\cldv6211-part-2-st10088951-brendin-bester\\eventease part 2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|c:\\users\\brend\\onedrive\\desktop\\eventease\\cldv6211-part-2-st10088951-brendin-bester\\eventease part 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|c:\\users\\brend\\onedrive\\desktop\\eventease\\cldv6211-part-2-st10088951-brendin-bester\\eventease part 2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|c:\\users\\brend\\onedrive\\desktop\\eventease\\cldv6211-part-2-st10088951-brendin-bester\\eventease part 2\\controllers\\bookingviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|solutionrelative:controllers\\bookingviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|c:\\users\\brend\\onedrive\\desktop\\eventease\\cldv6211-part-2-st10088951-brendin-bester\\eventease part 2\\views\\bookingview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBAE89F1-8022-491A-9049-8B14BA041EAB}|EventEase.csproj|solutionrelative:views\\bookingview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T08:15:35.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:15:21.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-23T08:15:18.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingViewController.cs",
+              "DocumentMoniker": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\Controllers\\BookingViewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingViewController.cs",
+              "ToolTip": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\Controllers\\BookingViewController.cs",
+              "RelativeToolTip": "Controllers\\BookingViewController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T08:03:16.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\Views\\BookingView\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\BookingView\\Index.cshtml",
+              "ToolTip": "C:\\Users\\brend\\OneDrive\\Desktop\\EventEase\\cldv6211-part-2-ST10088951-Brendin-Bester\\EventEase Part 2\\Views\\BookingView\\Index.cshtml",
+              "RelativeToolTip": "Views\\BookingView\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T07:53:33.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

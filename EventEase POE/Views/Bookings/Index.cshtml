@@ -1,0 +1,44 @@
+﻿@model IEnumerable<EventEase.Models.Bookings>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div style="margin-bottom: 20px;">
+    <a asp-action="Create"
+       style="background-color: #17a2b8; color: white; padding: 10px 16px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">
+        + Create New
+    </a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.BookingDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Event)</th>
+            <th>@Html.DisplayNameFor(model => model.Venue)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.BookingDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Event.EventName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Venue.VenueName)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.BookingId" class="btn btn-primary btn-sm">✏️ Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.BookingId" class="btn btn-success btn-sm">🔍 Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.BookingId" class="btn btn-danger btn-sm">🗑️ Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+           
+

@@ -1,0 +1,79 @@
+﻿@model IEnumerable<EventEase.Models.BookingView>
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Booking Search";
+}
+
+<h1>Booking Search</h1>
+
+<form method="get" class="mb-4">
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end;">
+        <div>
+            <label>Booking ID</label>
+            <input type="number" name="bookingId" value="@Context.Request.Query["bookingId"]" class="form-control" />
+        </div>
+
+        <div>
+            <label>Event Name</label>
+            <input type="text" name="searchQuery" value="@Context.Request.Query["searchQuery"]" class="form-control" />
+        </div>
+
+        
+
+        <div>
+            <label>Venue</label>
+            <select name="venueId" class="form-control">
+                <option value="">All Venues</option>
+                @foreach (var venue in ViewBag.Venues as List<SelectListItem>)
+                {
+                    <option value="@venue.Value" selected="@(Context.Request.Query["venueId"] == venue.Value ? "selected" : null)">
+                        @venue.Text
+                    </option>
+                }
+            </select>
+        </div>
+
+        <div>
+            <label>&nbsp;</label>
+            <button type="submit" class="btn btn-primary d-block">🔍 Filter</button>
+        </div>
+    </div>
+</form>
+
+<p>
+    Sort by:
+    <a asp-action="Index" asp-route-sortOrder="event">Event Name</a> |
+    <a asp-action="Index" asp-route-sortOrder="booking_asc">Booking Date ↑</a> |
+    <a asp-action="Index" asp-route-sortOrder="date_desc">Booking Date ↓</a> |
+    <a asp-action="Index" asp-route-sortOrder="eventdate_asc">Event Date ↑</a> |
+    <a asp-action="Index" asp-route-sortOrder="eventdate_desc">Event Date ↓</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>Venue Name</th>
+            <th>Event Name</th>
+            <th>Booking Date</th>
+            <th>Event Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BookingID</td>
+                <td>@item.VenueName</td>
+                <td>@item.EventName</td>
+                <td>@item.BookingDate.ToString("yyyy-MM-dd")</td>
+                <td>@item.EventDate.ToString("yyyy-MM-dd")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
